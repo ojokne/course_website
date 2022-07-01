@@ -1,0 +1,30 @@
+.education {
+
+    table,
+    th,
+    td,
+    tr {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 6px;
+    }
+
+    table {
+        margin-bottom: 20px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #DAEAF1;
+    }
+
+    th {
+        background-color: #4B5D67;
+        color: white;
+    }
+
+    tr:hover {
+        background-color: #7F8487;
+        transform: scale(1.02);
+        border-collapse: collapse;
+    }
+}

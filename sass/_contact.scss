@@ -1,0 +1,51 @@
+.contact {
+    form {
+        padding: 8px;
+        margin: 8px;
+
+        label {
+            padding: 8px;
+            margin-bottom: 8px;
+        }
+
+        textarea {
+            padding: 8px;
+            margin: 8px;
+            border-radius: 6px;
+            border: 1px solid grey;
+        }
+
+        textarea:focus {
+            border: none;
+            outline: none;
+        }
+
+        input[type='submit'] {
+            padding: 8px;
+            color: white;
+            background-color: #5D8BF4;
+            border-radius: 6px;
+            border: none;
+            text-align: center;
+        }
+
+        input[type='submit']:hover {
+            opacity: 0.9;
+            transform: scale(.9);
+        }
+
+        input[type='text'] {
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid grey;
+            padding: 8px;
+        }
+
+        input[type='text']:focus {
+            outline: none;
+        }
+    }
+
+
+}

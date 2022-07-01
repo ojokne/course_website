@@ -1,0 +1,198 @@
+@charset "UTF-8";
+.contact form {
+  padding: 8px;
+  margin: 8px;
+}
+.contact form label {
+  padding: 8px;
+  margin-bottom: 8px;
+}
+.contact form textarea {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 6px;
+  border: 1px solid grey;
+}
+.contact form textarea:focus {
+  border: none;
+  outline: none;
+}
+.contact form input[type=submit] {
+  padding: 8px;
+  color: white;
+  background-color: #5D8BF4;
+  border-radius: 6px;
+  border: none;
+  text-align: center;
+}
+.contact form input[type=submit]:hover {
+  opacity: 0.9;
+  transform: scale(0.9);
+}
+.contact form input[type=text] {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid grey;
+  padding: 8px;
+}
+.contact form input[type=text]:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 750px;
+  background-color: #EEEEEE;
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flaticon {
+  width: 150px;
+  padding: 6px;
+  margin: 6px;
+}
+
+.image {
+  width: 400px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
+.image:last-child {
+  margin-bottom: 8px;
+}
+
+nav {
+  padding: 6px;
+  margin: 6px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  list-style-type: none;
+  padding: 6px;
+  margin: 6px;
+  background-color: #4B5D67;
+  border-radius: 6px;
+  width: 75px;
+  text-align: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li:hover {
+  transform: scale(0.9);
+  opacity: 0.8;
+}
+
+hr {
+  border-top: 1px solid grey;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1.3em;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding: 6px;
+  margin: 6px;
+}
+
+.hobbies ul.hobbies li::marker {
+  content: "😃";
+}
+
+.education table,
+.education th,
+.education td,
+.education tr {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 6px;
+}
+.education table {
+  margin-bottom: 20px;
+}
+.education tr:nth-child(even) {
+  background-color: #DAEAF1;
+}
+.education th {
+  background-color: #4B5D67;
+  color: white;
+}
+.education tr:hover {
+  background-color: #7F8487;
+  transform: scale(1.02);
+  border-collapse: collapse;
+}
+
+.index {
+  height: 600px;
+}
+.index .panel {
+  height: 200px;
+  width: 250px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-align: center;
+}
+.index .panel:hover {
+  background-color: #1B1A17;
+}
+.index .bio {
+  background-color: #DDDDDD;
+}
+.index .panel:hover {
+  background-color: #1B1A17;
+}
+.index .photo {
+  background-color: #5D8BF4;
+  position: relative;
+  left: 500px;
+  top: -200px;
+}
+.index .education {
+  background-color: #839AA8;
+  position: relative;
+  left: 250px;
+  top: -200px;
+}
+.index .hobbies {
+  background-color: #5B7DB1;
+  position: relative;
+  top: -200px;
+}
+.index .contact {
+  background-color: #E6BA95;
+  position: relative;
+  left: 500px;
+  top: -400px;
+}
+.index a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+.index a:hover {
+  color: white;
+}/*# sourceMappingURL=index.css.map */

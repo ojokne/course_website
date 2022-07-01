@@ -1,0 +1,73 @@
+@import "contact";
+@import "utilities";
+@import "reset";
+@import "hobbies";
+@import "education";
+@import "photo";
+
+.index {
+    height: 600px;
+
+    .panel {
+        height: 200px;
+        width: 250px;
+        background-color: grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+    .panel:hover {
+        background-color: #1B1A17;
+    }
+
+    .bio {
+        background-color: #DDDDDD;
+    }
+
+    .panel:hover {
+        background-color: #1B1A17;
+    }
+
+    .photo {
+        background-color: #5D8BF4;
+        position: relative;
+        left: 500px;
+        top: -200px;
+    }
+
+    .education {
+        background-color: #839AA8;
+        position: relative;
+        left: 250px;
+        top: -200px;
+    }
+
+    .hobbies {
+        background-color: #5B7DB1;
+        position: relative;
+        top: -200px;
+    }
+
+    .contact {
+        background-color: #E6BA95;
+        position: relative;
+        left: 500px;
+        top: -400px;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
+
+    }
+
+    a:hover {
+        color: white;
+    }
+}

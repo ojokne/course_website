@@ -3,117 +3,55 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Ojok Emmanuel Nsubuga">
-    <meta name="description" content="This is a personal website, showing about myself, my hobbies and several links.
- It is my first course work assignemnt under the course of Introduction to web development">
-    <title>Home</title>
+    <meta name="description"
+        content="My personal webiste. It has my bio,photos,education background, hobbies and how to contact me">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>oen</title>
 </head>
 
 <body>
-    <header>
-        <h1>My personal website</h1>
-        <hr>
-    </header>
-    <section>
-        <h2><u>About myself</u></h2>
-        <h3><em>Introduction</em></h3>
-        <p>
-            Hello!, I am <strong>Ojok Emmanuel Nsubuga</strong>, a year one student offering
-            Bachelor of Science in Software Engineering at Makerere University
-        </p>
-        <figure>
-            <img src="images/oen.jpg" alt="My photo" height="400">
-            <figcaption>My photo</figcaption>
-        </figure>
-        <hr>
-        <h3><em>My languange proficiency</em></h3>
-        <table border="1">
-            <caption>Table showing several languages and my level of proficiency</caption>
-            <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col">Language</th>
-                    <th scope="col">Proficiency</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>English</td>
-                    <td rowspan="2">Excellent</td>
-                </tr>
+    <div class="container ">
+        <div class="index">
 
-                <tr>
-                    <td>2</td>
-                    <td>Luo</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Luganda</td>
-                    <td>Fair</td>
-                </tr>
 
-            </tbody>
+            <a href="bio.html" class="bio panel">
+                <p> My bio </p>
+            </a>
 
-            <tfoot>
-                <tr>
-                    <th>Total</th>
-                    <th colspan="2">3</th>
-                </tr>
-            </tfoot>
-        </table>
-        <hr>
-        <h3><em>My hobbies and interests</em></h3>
-        <p>Some of my hobbies and interests inlcude the following</p>
-        <ul>
-            <li>Hanging out with my friends</li>
-            <li>Playing music </li>
-        </ul>
-        <p>Read more <strong>&raquo;</strong> <a href="hobbies.html" target="_blank">about my hobbies and interests</a>
-        </p>
-        <hr>
+            <a href="photo.html" class="photo panel">
+                <p>My photo</p>
+            </a>
 
-        <h3><em>How to contact me</em></h3>
-        <p>I would love to hear from you, please fill in the form below</p>
-        <form action="mailto:ojokne@gmail.com" method="POST">
-            <fieldset>
-                <legend>Get in touch</legend>
+            <a href="education.html" class="education panel">
+                <p>My Education History</p>
+            </a>
 
-                <label for="name">Name &nbsp;</label>
-                <input type="text" name="name" id="name"><br>
 
-                <textarea name="message" id="message" cols="30"
-                    rows="10">Please write your message here &hellip;</textarea><br>
+            <a href="hobbies.html" class="hobbies panel">
+                <p>My Hobbies</p>
+            </a>
 
-                <p>Please rate my page</p>
-                <input type="radio" name="rating" id="five" value="five">
-                <label for="five">5</label><br>
 
-                <input type="radio" name="rating" id="four" value="four">
-                <label for="four">4</label><br>
+            <a href="contact.html" class="contact panel">
+                <p>Contact Me</p>
+            </a>
 
-                <input type="radio" name="rating" id="three" value="three">
-                <label for="three">3</label><br>
-
-                <input type="radio" name="rating" id="two" value="two">
-                <label for="two">2</label> <br>
-
-                <input type="radio" name="rating" id="one" value="one">
-                <label for="one">1</label><br>
-
-                <input type="submit" value="Submit">
-            </fieldset>
-        </form>
-        <hr>
-    </section>
-    <footer>
-        <p>Quick links</p>
-        <ul>
-            <li><a href="hobbies.html">Hobbies and interests</a></li>
-        </ul>
-        <p>Copyright &copy; Ojok Emmanuel Nsubuga. All rights reserved</p>
-    </footer>
+        </div>
+    </div>
 </body>
 
 </html>
